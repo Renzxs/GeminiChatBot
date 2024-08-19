@@ -19,7 +19,7 @@ export default function App() {
   const [loading, setLoading] = useState<boolean>(false);
 
   const API_KEY = process.env.EXPO_PUBLIC_API_KEY;
-  const genAI = new GoogleGenerativeAI(API_KEY);
+  const genAI = new GoogleGenerativeAI(API_KEY || '');
   const model = genAI.getGenerativeModel({ 
     model: "gemini-1.5-flash", 
     systemInstruction: "your a cartographer/geographer who is knowledgeable in different locations names. You should only answer the name of the location don't make your answer too long.",
