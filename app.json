@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ChatGPTIntegration",
-    "slug": "ChatGPTIntegration",
+    "name": "ChatBot",
+    "slug": "ChatBot",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
